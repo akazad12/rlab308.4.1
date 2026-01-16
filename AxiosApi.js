@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import * as Carousel from "./Carousel.js";
 
 const breedSelect = document.getElementById("breedSelect");
