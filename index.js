@@ -1,5 +1,4 @@
 import * as Carousel from "./Carousel.js";
-import axios from "axios";
 
 // The breed selection input element.
 const breedSelect = document.getElementById("breedSelect");
@@ -125,6 +124,10 @@ breedSelect.addEventListener("change", (e) => {
 // Execute immediately
 initialLoad();
 
+export async function favourite(imgId) {
+  console.log("Favourite clicked:", imgId);
+}
+
 /**
  * 3. Fork your own sandbox, creating a new one named "JavaScript Axios Lab."
  */
@@ -194,4 +197,5 @@ initialLoad();
  * - Test other breeds as well. Not every breed has the same data available, so
  *   your code should account for this.
  */
+
 
