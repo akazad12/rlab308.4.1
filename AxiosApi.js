@@ -82,4 +82,4 @@ async function loadBreedDataAxios(breedId) {
   setTimeout(() => (progressBar.style.width = "0%"), 500);
 }
 
-initialLoadAxios();
+//initialLoadAxios();
