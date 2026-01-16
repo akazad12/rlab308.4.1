@@ -5,6 +5,8 @@ const breedSelect = document.getElementById("breedSelect");
 const infoDump = document.getElementById("infoDump");
 const progressBar = document.getElementById("progressBar");
 
+axios.defaults.baseURL = "https://api.thecatapi.com/v1";
+
 axios.defaults.headers.common["x-api-key"] =
   "live_VDabjFusTD4Vv1FD1OZPEGCmdvaU23Ec9ULu8tI3vo3NH5M3SUlV7kB4CYcJwjhS";
 
