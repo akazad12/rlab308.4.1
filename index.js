@@ -12,7 +12,7 @@ const getFavouritesBtn = document.getElementById("getFavouritesBtn");
 
 // Step 0: Store your API key here for reference and easy access.
 const API_KEY =
-  "live_VDabjFusTD4Vv1FD1OZPEGCmdvaU23Ec9ULu8tI3vo3NH5M3SUlV7kB4CYcJwjhS";
+  "ENTER_API_KEY";
 
 /**
  * 1. Create an async function "initialLoad" that does the following:
@@ -194,3 +194,4 @@ initialLoad();
  * - Test other breeds as well. Not every breed has the same data available, so
  *   your code should account for this.
  */
+
